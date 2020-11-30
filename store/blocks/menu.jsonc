@@ -12,7 +12,6 @@
 	},
 	//MENU ITEMS
 	"menu-item#major-appliances": {
-		"props":{},
 		"blocks": ["vtex.menu@2.x:submenu#major"]
 	},
 	//SUBMENU
@@ -23,7 +22,7 @@
 	},
 
 	//OTRO MENU
-	"vtex.menu@2.x:menu#major-appliances": {
+	"vtex.menu@2.x:menu#major": {
 		"children": [
 			"menu-item#refrigerators",
 			"menu-item#ovens",
@@ -58,7 +57,6 @@
 
 	//electrones
 	"menu-item#electronics": {
-		"props":{},
 		"blocks": ["vtex.menu@2.x:submenu#electronics"]
 	},
 	"vtex.menu@2.x:submenu#electronics": {
