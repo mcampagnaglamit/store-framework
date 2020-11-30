@@ -12,7 +12,9 @@
 	},
 	//MENU ITEMS
 	"menu-item#major-appliances": {
-		"blocks": ["vtex.menu@2.x:submenu#major"]
+		"blocks": [
+			"vtex.menu@2.x:submenu#major"
+		]
 	},
 	//SUBMENU
 	"vtex.menu@2.x:submenu#major":{
@@ -38,6 +40,9 @@
 		]
 	},
 	"vtex.menu@2.x:menu#small": {
+		"props":{
+			"orientation": "vertical"
+		},
 		"children": [
 			"menu-item#mixers",
 			"menu-item#toasters",
@@ -60,9 +65,9 @@
 		"blocks": ["vtex.menu@2.x:submenu#electronics"]
 	},
 	"vtex.menu@2.x:submenu#electronics": {
-		"blocks": ["vtex.menu@2.x:menu#secondary-electronics"]
+		"blocks": ["vtex.menu@2.x:menu#electronics"]
 	},
-	"vtex.menu@2.x:menu#secondary-electronics": {
+	"vtex.menu@2.x:menu#electronics": {
 		"props": {
 			"orientation": "vertical"
 		},
