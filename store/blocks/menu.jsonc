@@ -1,5 +1,4 @@
 {
-	//MENU
 	"vtex.menu@2.x:menu#categories": {
 		"children": [
 			"menu-item#major-appliances",
@@ -10,20 +9,16 @@
 			"orientation": "horizontal"
 		}
 	},
-	//MENU ITEMS
 	"menu-item#major-appliances": {
 		"blocks": [
 			"vtex.menu@2.x:submenu#major"
 		]
 	},
-	//SUBMENU
 	"vtex.menu@2.x:submenu#major":{
 		"children":[
 			"vtex.menu@2.x:menu#major"
 		]
 	},
-
-	//OTRO MENU
 	"vtex.menu@2.x:menu#major": {
 		"children": [
 			"menu-item#refrigerators",
@@ -49,8 +44,6 @@
 			"menu-item#coffee"
 		]
 	},
-
-	//Secondary menu
 	"menu-item#small-appliances": {
 		"props":{
 			"orientation": "horizontal"
@@ -59,8 +52,6 @@
 			"vtex.menu@2.x:submenu#small"
 		]
 	},
-
-	//electrones
 	"menu-item#electronics": {
 		"blocks": ["vtex.menu@2.x:submenu#electronics"]
 	},
