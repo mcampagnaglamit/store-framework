@@ -9,11 +9,6 @@
 			"orientation": "horizontal"
 		}
 	},
-	/*"menu-item#major-appliances": {
-		"blocks": [
-			"vtex.menu@2.x:submenu#major"
-		]
-	},*/
 	"vtex.menu@2.x:submenu#major":{
 		"children":[
 			"vtex.menu@2.x:menu#major"
@@ -44,19 +39,8 @@
 			"menu-item#coffee"
 		]
 	},
-	/*"menu-item#small-appliances": {
-		"props":{
-			"orientation": "horizontal"
-		},
-		"blocks": [
-			"vtex.menu@2.x:submenu#small"
-		]
-	},*/
-	/*"menu-item#electronics": {
-		"blocks": ["vtex.menu@2.x:submenu#electronics"]
-	},*/
 	"vtex.menu@2.x:submenu#electronics": {
-		"blocks": ["vtex.menu@2.x:menu#electronics"]
+		"children": ["vtex.menu@2.x:menu#electronics"]
 	},
 	"vtex.menu@2.x:menu#electronics": {
 		"props": {
